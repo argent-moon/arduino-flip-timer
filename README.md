@@ -64,9 +64,9 @@ Completion: Rainbow animation followed by white flashes
 
 ### Changing Timer Mode
 Tap the touch sensor to cycle through:
-Green → 10s
-Blue → 20s
-Red → 30s
+- Green → 10s
+- Blue → 20s
+- Red → 30s
 
 ### Pause / Resume
 - Tap once while running → pause
