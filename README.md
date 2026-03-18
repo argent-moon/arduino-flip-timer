@@ -30,10 +30,7 @@ Short press:
 Long press (≥5 seconds): Reset the system
 
 ### Timer Logic
-The timer uses a non-blocking approach based on millis(), allowing the system to:
-- Track elapsed time
-- Continue reading inputs simultaneously
-- Maintain responsiveness
+The timer uses a non-blocking approach based on millis(), allowing the system to track time while continuously handling sensor inputs.
 
 ### System States
 The application operates in three main states:
