@@ -16,17 +16,16 @@ This project implements a hands-free countdown timer controlled by physical inte
 - RGB LED (PWM control)
 
 ## How It Works
-The system is designed as an event-driven embedded application that continuously reads sensor inputs and updates its internal state.
 
 ### Orientation Detection
 A ball switch is used to detect when the device is flipped. To avoid false triggers, the system waits until the signal remains stable for 5 seconds before starting the timer.
 
 ### Input Handling
-The touch sensor supports multiple interactions:
+The touch sensor supports multiple interactions:  
 Short press:
 - Idle → cycle timer mode
 - Running → pause timer
-- Paused → resume timer
+- Paused → resume timer  
 Long press (≥5 seconds): Reset the system
 
 ### Timer Logic
@@ -36,19 +35,19 @@ The timer uses a non-blocking approach based on millis(), allowing the system to
 The application operates in three main states:
 - Idle
 - Running
-- Paused
+- Paused  
 Transitions between states are controlled by sensor inputs.
 
 ### Visual Feedback
-The RGB LED provides continuous feedback:
+The RGB LED provides continuous feedback:  
 Mode selection:
 - Green → 10 seconds
 - Blue → 20 seconds
-- Red → 30 seconds
+- Red → 30 seconds  
 Timer progress:
 - 0–50% → steady color
 - 50–90% → pulsing effect
-- 90–100% → blinking warning
+- 90–100% → blinking warning  
 Completion: Rainbow animation followed by white flashes
 
 ## How to Use
