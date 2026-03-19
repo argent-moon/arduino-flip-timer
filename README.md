@@ -60,10 +60,6 @@ Timer progress:
 
 Completion: Rainbow animation followed by white flashes
 
-### Design Considerations
-- Debouncing: Ball switch signal stabilizes over 5 seconds to prevent false triggers
-- Non-blocking timers: Uses millis() instead of delay() to handle concurrent inputs
-
 ## How to Use
 
 ### Starting the Timer
