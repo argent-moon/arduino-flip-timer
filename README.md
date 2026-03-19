@@ -95,4 +95,4 @@ Hold the touch sensor for ~5 seconds
 ## Images
 ![Circuit Diagram](images/circuit-diagram.png)  
 ![Hardware Components Used](images/hardware-components.png)  
-![Results Photo](images/circuit-diagram.jpg)
+![Results Photo](images/result.jpg)
