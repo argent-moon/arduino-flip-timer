@@ -89,7 +89,6 @@ Hold the touch sensor for ~5 seconds
 - Ball switch 
 - Touch sensor
 - RGB LED
-- Resistors
 - Breadboard and jumper wires
 
 ## Images
